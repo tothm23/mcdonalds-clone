@@ -26,7 +26,7 @@ export class AppComponent {
     },
     {
       title: 'Maestro Honey Holly',
-      imageUrl: 'assets/maestro_honeyholly',
+      imageUrl: 'assets/maestro_honeyholly.jfif',
       kcal: 665,
     },
   ];
