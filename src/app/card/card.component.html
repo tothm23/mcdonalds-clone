@@ -1,14 +1,17 @@
-<div class="card">
-  <div class="card-image">
-    <figure class="image is-4by3">
-      <img src="{{ imageUrl }}" />
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media-content">
-      <p class="title is-4">{{ title }}</p>
-      <p class="subtitle is-6">{{ kcal }}</p>
+<div class="col-12">
+  <div class="card my-5">
+    <img
+      src="{{ imageUrl }}"
+      class="card-img-top"
+      title="{{ title }}"
+      alt="{{ title }}"
+    />
+    <div class="card-body text-center">
+      <h5 class="card-title">{{ title }}</h5>
+      <p class="card-text">
+        {{ description }}
+      </p>
+      <a href="{{ link }}" class="btn btn-success">Bővebben</a>
     </div>
-    <div class="content"></div>
   </div>
 </div>
